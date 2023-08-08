@@ -1,6 +1,7 @@
+import { ButtonPlay } from '@/components/ButtonPlay'
 import Footer from '@/components/Footer'
 import Sidebar from '@/components/Sidebar'
-import { ChevronLeft, ChevronRight, Play } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
@@ -25,9 +26,7 @@ export default function Home() {
             >
               <Image src="/abba.jpg" alt="Abba Gold" width={100} height={100} />
               <strong>Abba Gold</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
             <a
               href="#"
@@ -35,9 +34,7 @@ export default function Home() {
             >
               <Image src="/elvis.jpg" alt="Elvis" width={100} height={100} />
               <strong>Elvis</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
             <a
               href="#"
@@ -45,9 +42,7 @@ export default function Home() {
             >
               <Image src="/70s.jpg" alt="70s Songs" width={100} height={100} />
               <strong>70s Songs</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
             <a
               href="#"
@@ -60,9 +55,7 @@ export default function Home() {
                 height={100}
               />
               <strong>Boney M</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
             <a
               href="#"
@@ -75,9 +68,7 @@ export default function Home() {
                 height={100}
               />
               <strong>Brazil Hits</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
             <a
               href="#"
@@ -90,9 +81,7 @@ export default function Home() {
                 height={100}
               />
               <strong>Michael Jackson</strong>
-              <button className="flex items-center justify-center invisible w-12 h-12 p-1 pl-1 ml-auto mr-6 text-black bg-green-400 rounded-full group-hover:visible">
-                <Play />
-              </button>
+              <ButtonPlay />
             </a>
           </div>
           <h2 className="mt-3 text-xl">Made for Marcio</h2>
